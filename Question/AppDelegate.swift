@@ -7,6 +7,10 @@
 //
 
 import UIKit
+import CoreData
+import Meteor
+
+let Meteor = METCoreDataDDPClient(serverURL: NSURL(string: "wss://questionapp.meteor.com/websocket"))
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,8 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 		// Override point for customization after application launch.
+		Meteor.connect()
+				
 		return true
 	}
+	
+	lazy var managedObjectContext: NSManagedObjectContext? = {
+		return Meteor.mainQueueManagedObjectContext
+	}()
 
 	func applicationWillResignActive(application: UIApplication) {
 		// Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
