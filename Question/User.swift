@@ -1,5 +1,5 @@
 //
-//  Question.swift
+//  User.swift
 //  Question
 //
 //  Created by Damiaan Dufaux on 24/04/15.
@@ -9,13 +9,9 @@
 import Foundation
 import CoreData
 
-@objc(Question)
-class Question: NSManagedObject {
+@objc(User)
+class User: NSManagedObject {
 
-	@NSManaged var content: String
-	
-	override var description: String {
-		return content;
-	}
+    @NSManaged var username: String
 
 }

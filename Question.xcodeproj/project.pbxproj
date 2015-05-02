@@ -11,8 +11,8 @@
 		3AD01AED17A11FAC8CD40950 /* Pods_QuestionDesktop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13054AF10C35BCE2E687E26E /* Pods_QuestionDesktop.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6253BB7B74FFC01A3A2C6B99 /* Pods_QuestionDesktopTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F440E8C079E8A6A7BF020DC /* Pods_QuestionDesktopTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		74007A6D1AEA6583007A918C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74007A6C1AEA6583007A918C /* AppDelegate.swift */; };
-		74007A6F1AEA6583007A918C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74007A6E1AEA6583007A918C /* FirstViewController.swift */; };
-		74007A711AEA6583007A918C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74007A701AEA6583007A918C /* SecondViewController.swift */; };
+		74007A6F1AEA6583007A918C /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74007A6E1AEA6583007A918C /* QuestionViewController.swift */; };
+		74007A711AEA6583007A918C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74007A701AEA6583007A918C /* Login.swift */; };
 		74007A741AEA6583007A918C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74007A721AEA6583007A918C /* Main.storyboard */; };
 		74007A761AEA6583007A918C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74007A751AEA6583007A918C /* Images.xcassets */; };
 		74007A791AEA6583007A918C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74007A771AEA6583007A918C /* LaunchScreen.xib */; };
@@ -35,6 +35,19 @@
 		74088A6B1AEA84370001994F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A691AEA84370001994F /* Question.swift */; };
 		74088A6C1AEA84370001994F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A691AEA84370001994F /* Question.swift */; };
 		74088A6D1AEA84370001994F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A691AEA84370001994F /* Question.swift */; };
+		74088A701AEAF0B60001994F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A6F1AEAF0B60001994F /* User.swift */; };
+		74088A711AEAF0B60001994F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A6F1AEAF0B60001994F /* User.swift */; };
+		74088A721AEAF0B60001994F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A6F1AEAF0B60001994F /* User.swift */; };
+		74088A731AEAF0B60001994F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A6F1AEAF0B60001994F /* User.swift */; };
+		74088A751AEAF18F0001994F /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A741AEAF18F0001994F /* Answer.swift */; };
+		74088A761AEAF18F0001994F /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A741AEAF18F0001994F /* Answer.swift */; };
+		74088A771AEAF18F0001994F /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A741AEAF18F0001994F /* Answer.swift */; };
+		74088A781AEAF18F0001994F /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74088A741AEAF18F0001994F /* Answer.swift */; };
+		7461FC6C1AEC2A5700774ACC /* ProfileContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7461FC6B1AEC2A5700774ACC /* ProfileContainerController.swift */; };
+		7461FC6E1AEC2CF300774ACC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7461FC6D1AEC2CF300774ACC /* ProfileViewController.swift */; };
+		7461FC7C1AECE0C300774ACC /* XYPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7461FC7B1AECE0C300774ACC /* XYPieChart.m */; };
+		7461FC821AECE3A700774ACC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7461FC811AECE3A700774ACC /* QuartzCore.framework */; };
+		7461FC931AECED2300774ACC /* DesignablePieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7461FC921AECED2300774ACC /* DesignablePieChart.swift */; };
 		A7CB58F3621E439BF38E0806 /* Pods_QuestionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31624E217AE5B86260C086F5 /* Pods_QuestionTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -65,8 +78,8 @@
 		74007A671AEA6583007A918C /* Question.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Question.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74007A6B1AEA6583007A918C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74007A6C1AEA6583007A918C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74007A6E1AEA6583007A918C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		74007A701AEA6583007A918C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		74007A6E1AEA6583007A918C /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		74007A701AEA6583007A918C /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		74007A731AEA6583007A918C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74007A751AEA6583007A918C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		74007A781AEA6583007A918C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -92,6 +105,18 @@
 		74088A591AEA7A050001994F /* FunctionalAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionalAdditions.swift; sourceTree = "<group>"; };
 		74088A661AEA83900001994F /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		74088A691AEA84370001994F /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		74088A6F1AEAF0B60001994F /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		74088A741AEAF18F0001994F /* Answer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		7461FC6B1AEC2A5700774ACC /* ProfileContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileContainerController.swift; sourceTree = "<group>"; };
+		7461FC6D1AEC2CF300774ACC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7461FC761AECE0C200774ACC /* Question-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Question-Bridging-Header.h"; sourceTree = "<group>"; };
+		7461FC771AECE0C200774ACC /* QuestionTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuestionTests-Bridging-Header.h"; path = "../Question/QuestionTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		7461FC781AECE0C200774ACC /* QuestionDesktop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuestionDesktop-Bridging-Header.h"; path = "../Question/QuestionDesktop-Bridging-Header.h"; sourceTree = "<group>"; };
+		7461FC791AECE0C200774ACC /* QuestionDesktopTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "QuestionDesktopTests-Bridging-Header.h"; path = "../Question/QuestionDesktopTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		7461FC7A1AECE0C300774ACC /* XYPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPieChart.h; sourceTree = "<group>"; };
+		7461FC7B1AECE0C300774ACC /* XYPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPieChart.m; sourceTree = "<group>"; };
+		7461FC811AECE3A700774ACC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7461FC921AECED2300774ACC /* DesignablePieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignablePieChart.swift; sourceTree = "<group>"; };
 		8D746398C0E0AF944D107866 /* Pods-QuestionDesktop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionDesktop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QuestionDesktop/Pods-QuestionDesktop.debug.xcconfig"; sourceTree = "<group>"; };
 		8F0566927221CEBAC7D86B46 /* Pods-QuestionDesktop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuestionDesktop.release.xcconfig"; path = "Pods/Target Support Files/Pods-QuestionDesktop/Pods-QuestionDesktop.release.xcconfig"; sourceTree = "<group>"; };
 		97D7C6048B2C93453A1804B0 /* Pods-Question.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Question.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Question/Pods-Question.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7461FC821AECE3A700774ACC /* QuartzCore.framework in Frameworks */,
 				304F563616F5D8B5C4B4A22F /* Pods_Question.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,13 +205,16 @@
 			isa = PBXGroup;
 			children = (
 				74007A6C1AEA6583007A918C /* AppDelegate.swift */,
-				74007A6E1AEA6583007A918C /* FirstViewController.swift */,
-				74007A701AEA6583007A918C /* SecondViewController.swift */,
-				74088A681AEA83BB0001994F /* Model */,
-				74088A621AEA7A0C0001994F /* Content loading */,
-				74088A631AEA7A2A0001994F /* Core Data */,
-				74088A641AEA7A340001994F /* Extensions */,
+				74007A6E1AEA6583007A918C /* QuestionViewController.swift */,
+				7461FC6B1AEC2A5700774ACC /* ProfileContainerController.swift */,
+				74007A701AEA6583007A918C /* Login.swift */,
+				7461FC6D1AEC2CF300774ACC /* ProfileViewController.swift */,
+				7461FC921AECED2300774ACC /* DesignablePieChart.swift */,
+				7461FC801AECE0E600774ACC /* XYPieChart */,
 				74007A721AEA6583007A918C /* Main.storyboard */,
+				74088A681AEA83BB0001994F /* Model */,
+				74088A6E1AEAAE3B0001994F /* Meteor convenience classes */,
+				7461FC761AECE0C200774ACC /* Question-Bridging-Header.h */,
 				74007A751AEA6583007A918C /* Images.xcassets */,
 				74007A771AEA6583007A918C /* LaunchScreen.xib */,
 				74007A6A1AEA6583007A918C /* Supporting Files */,
@@ -204,6 +233,7 @@
 		74007A811AEA6583007A918C /* QuestionTests */ = {
 			isa = PBXGroup;
 			children = (
+				7461FC771AECE0C200774ACC /* QuestionTests-Bridging-Header.h */,
 				74007A841AEA6583007A918C /* QuestionTests.swift */,
 				74007A821AEA6583007A918C /* Supporting Files */,
 			);
@@ -221,6 +251,7 @@
 		740889FB1AEA69110001994F /* QuestionDesktop */ = {
 			isa = PBXGroup;
 			children = (
+				7461FC781AECE0C200774ACC /* QuestionDesktop-Bridging-Header.h */,
 				740889FE1AEA69110001994F /* AppDelegate.swift */,
 				74088A001AEA69110001994F /* ViewController.swift */,
 				74088A021AEA69110001994F /* Images.xcassets */,
@@ -241,6 +272,7 @@
 		74088A0E1AEA69110001994F /* QuestionDesktopTests */ = {
 			isa = PBXGroup;
 			children = (
+				7461FC791AECE0C200774ACC /* QuestionDesktopTests-Bridging-Header.h */,
 				74088A111AEA69110001994F /* QuestionDesktopTests.swift */,
 				74088A0F1AEA69110001994F /* Supporting Files */,
 			);
@@ -288,14 +320,36 @@
 			isa = PBXGroup;
 			children = (
 				74088A651AEA83900001994F /* Model.xcdatamodeld */,
+				74088A741AEAF18F0001994F /* Answer.swift */,
+				74088A6F1AEAF0B60001994F /* User.swift */,
 				74088A691AEA84370001994F /* Question.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
 		};
+		74088A6E1AEAAE3B0001994F /* Meteor convenience classes */ = {
+			isa = PBXGroup;
+			children = (
+				74088A621AEA7A0C0001994F /* Content loading */,
+				74088A631AEA7A2A0001994F /* Core Data */,
+				74088A641AEA7A340001994F /* Extensions */,
+			);
+			name = "Meteor convenience classes";
+			sourceTree = "<group>";
+		};
+		7461FC801AECE0E600774ACC /* XYPieChart */ = {
+			isa = PBXGroup;
+			children = (
+				7461FC7A1AECE0C300774ACC /* XYPieChart.h */,
+				7461FC7B1AECE0C300774ACC /* XYPieChart.m */,
+			);
+			name = XYPieChart;
+			sourceTree = "<group>";
+		};
 		BB2C4285047082BE3C611973 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7461FC811AECE3A700774ACC /* QuartzCore.framework */,
 				2F4FA5819AD3A69AC9AEF6D7 /* Pods_Question.framework */,
 				31624E217AE5B86260C086F5 /* Pods_QuestionTests.framework */,
 				13054AF10C35BCE2E687E26E /* Pods_QuestionDesktop.framework */,
@@ -400,6 +454,7 @@
 				TargetAttributes = {
 					74007A661AEA6583007A918C = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5RL2E86D64;
 					};
 					74007A7D1AEA6583007A918C = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -659,17 +714,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7461FC6C1AEC2A5700774ACC /* ProfileContainerController.swift in Sources */,
 				74088A5A1AEA7A050001994F /* ContentLoading.swift in Sources */,
-				74007A711AEA6583007A918C /* SecondViewController.swift in Sources */,
+				74007A711AEA6583007A918C /* Login.swift in Sources */,
 				74088A5E1AEA7A050001994F /* ManagedObjectObserver.swift in Sources */,
 				74007A6D1AEA6583007A918C /* AppDelegate.swift in Sources */,
 				74088A5D1AEA7A050001994F /* FetchedResultsTableViewDataSource.swift in Sources */,
+				7461FC7C1AECE0C300774ACC /* XYPieChart.m in Sources */,
+				7461FC931AECED2300774ACC /* DesignablePieChart.swift in Sources */,
 				74088A5B1AEA7A050001994F /* SubscriptionLoader.swift in Sources */,
-				74007A6F1AEA6583007A918C /* FirstViewController.swift in Sources */,
+				7461FC6E1AEC2CF300774ACC /* ProfileViewController.swift in Sources */,
+				74088A701AEAF0B60001994F /* User.swift in Sources */,
+				74007A6F1AEA6583007A918C /* QuestionViewController.swift in Sources */,
 				74088A611AEA7A050001994F /* FunctionalAdditions.swift in Sources */,
 				74088A6A1AEA84370001994F /* Question.swift in Sources */,
 				74088A5C1AEA7A050001994F /* FetchedResultsDataSource.swift in Sources */,
 				74088A5F1AEA7A050001994F /* FoundationExtensions.swift in Sources */,
+				74088A751AEAF18F0001994F /* Answer.swift in Sources */,
 				74088A601AEA7A050001994F /* MeteorExtensions.swift in Sources */,
 				74088A671AEA83900001994F /* Model.xcdatamodeld in Sources */,
 			);
@@ -681,6 +742,8 @@
 			files = (
 				74007A851AEA6583007A918C /* QuestionTests.swift in Sources */,
 				74088A6B1AEA84370001994F /* Question.swift in Sources */,
+				74088A711AEAF0B60001994F /* User.swift in Sources */,
+				74088A761AEAF18F0001994F /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,7 +751,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74088A721AEAF0B60001994F /* User.swift in Sources */,
 				74088A6C1AEA84370001994F /* Question.swift in Sources */,
+				74088A771AEAF18F0001994F /* Answer.swift in Sources */,
 				74088A011AEA69110001994F /* ViewController.swift in Sources */,
 				740889FF1AEA69110001994F /* AppDelegate.swift in Sources */,
 			);
@@ -700,6 +765,8 @@
 			files = (
 				74088A121AEA69110001994F /* QuestionDesktopTests.swift in Sources */,
 				74088A6D1AEA84370001994F /* Question.swift in Sources */,
+				74088A731AEAF0B60001994F /* User.swift in Sources */,
+				74088A781AEAF18F0001994F /* Answer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,7 +830,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -808,7 +875,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -834,9 +901,15 @@
 			baseConfigurationReference = 97D7C6048B2C93453A1804B0 /* Pods-Question.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Question/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
+				SWIFT_OBJC_BRIDGING_HEADER = "Question/Question-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -845,9 +918,14 @@
 			baseConfigurationReference = A64883F19493B3F0121698A9 /* Pods-Question.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Question/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
+				SWIFT_OBJC_BRIDGING_HEADER = "Question/Question-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -856,6 +934,8 @@
 			baseConfigurationReference = 624B45286FD1A07ED1683FAD /* Pods-QuestionTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas Dufaux (LWBECYCK6Q)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -867,6 +947,8 @@
 				INFOPLIST_FILE = QuestionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Question/QuestionTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Question.app/Question";
 			};
 			name = Debug;
@@ -876,6 +958,8 @@
 			baseConfigurationReference = 5C0FB283C52489AA9E4DFC2D /* Pods-QuestionTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Thomas Dufaux (LWBECYCK6Q)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -883,6 +967,7 @@
 				INFOPLIST_FILE = QuestionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Question/QuestionTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Question.app/Question";
 			};
 			name = Release;
@@ -892,7 +977,8 @@
 			baseConfigurationReference = 8D746398C0E0AF944D107866 /* Pods-QuestionDesktop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -904,6 +990,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Question/QuestionDesktop-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -912,13 +1000,15 @@
 			baseConfigurationReference = 8F0566927221CEBAC7D86B46 /* Pods-QuestionDesktop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = QuestionDesktop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Question/QuestionDesktop-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -927,6 +1017,7 @@
 			baseConfigurationReference = BF3B188C2E3639E642C6F2C0 /* Pods-QuestionDesktopTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -942,6 +1033,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Question/QuestionDesktopTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuestionDesktop.app/Contents/MacOS/QuestionDesktop";
 			};
 			name = Debug;
@@ -951,6 +1044,7 @@
 			baseConfigurationReference = FB23EE62AE4A5E48CFDDB06A /* Pods-QuestionDesktopTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -961,6 +1055,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "Question/QuestionDesktopTests-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuestionDesktop.app/Contents/MacOS/QuestionDesktop";
 			};
 			name = Release;
